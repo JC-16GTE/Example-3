@@ -24,6 +24,7 @@ namespace Strings
             {
                indexNo = int.Parse(indexTextBox.Text);
             }
+            
             /*
             Two ways to include quotes within quotes
             resultLabel.Text = "<p style='color:#ee3b32;';>Hello CPM</p>";
@@ -51,7 +52,6 @@ namespace Strings
             }
             */
 
-
             /*
             // Getting the index start of a particular word entered in 
             // the third text box.
@@ -63,8 +63,7 @@ namespace Strings
             if (strLocate != "")
             {
                 if (userValue.IndexOf(strLocate) != -1)
-                {
-                    
+                {                    
                     resultLabel.Text = string.Format("{0} found at position {1}", strLocate, userValue.IndexOf(strLocate).ToString());
 
                     // Insert a new string at that position if there is data in the replace textbox.
