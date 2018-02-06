@@ -1,2 +1,2 @@
 # Example-3
-Working with strings
+Working with strings following the devu.com course.
